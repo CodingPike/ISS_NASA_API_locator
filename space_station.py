@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import requests
 from geopy.distance import geodesic
 from geopy.geocoders import Nominatim
@@ -41,23 +38,4 @@ def ISSLocator():
         return f"Ur estimated address : {location.address}. ISS is currently above an ocean or a sea so we can't provide an actual address. ISS is around {distance} km away from ur current location!"
 
 
-# In[2]:
-
-
 ISSLocator()
-
-
-# In[5]:
-
-
-#Podawanie mojego adresu
-#Podawanie adresu, nad którym jest stacja jeśli nie jest nad oceanem
-#Type in ur latitude 52.779379
-#Type in ur longitude 18.252538
-
-
-# In[ ]:
-
-
-
-
